@@ -4,8 +4,6 @@ import ZodiacCard from "../app/components/ZodiacCard";
 import Data from "../app/components/zodiacData";
 import Header from "../app/components/Header";
 
-const sign = "Aries"
-const day = "Today"
 const SECOND_API = `https://api.adviceslip.com/advice`; //advice
 
 export async function getStaticProps() {
