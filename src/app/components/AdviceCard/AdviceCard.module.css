@@ -1,0 +1,13 @@
+.adviceContainer {
+    border: 2px solid #176A87;
+    padding: 30px;
+}
+
+.adviceContainer h2{
+    color: #176A87;
+    margin-bottom: 5px;
+}
+
+.adviceContainer p{
+    font-size: 22px;
+}

@@ -1,0 +1,41 @@
+.zodiacTitle{
+    color: #176A87;
+}
+.containter {
+    display: flex;
+    flex-direction: column;
+}
+.extraInfoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.extraInfoContainer div {
+    border: 2px dotted #176A87;
+    padding: 30px;
+}
+
+.extraInfoContainer div h2{
+    margin-bottom: 8px;
+    color: #176A87;
+}
+
+.extraInfoContainer div p{
+    font-size: 18px;
+}
+
+.zodiacdates{
+    font-style: italic;
+    color: #176A87;
+    margin-top: 5px;
+}
+
+.blurbCont{
+    margin: 25px 0px;
+}
+
+.blurbCont p {
+    font-size: 18px;
+}

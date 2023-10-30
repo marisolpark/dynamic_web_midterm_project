@@ -1,9 +1,10 @@
 "use-client"
- import styles from "../AdviceCard/adviceCard.module.css"
+ import styles from "../AdviceCard/AdviceCard.module.css"
 
  const adviceCard = ({todayadvice}) => (
-    <div>
-        <p>Your advice of the day is ...: {todayadvice}</p>
+    <div className={styles.adviceContainer}>
+        <h2>Your advice of the day is ...🤔</h2>
+        <p>{todayadvice}</p>
     </div>
  );
 
