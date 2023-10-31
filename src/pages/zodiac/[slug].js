@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import "../../app/globals.css"
 import ZodiacCard from "../../app/components/ZodiacCard";
 import Data from "../../app/components/zodiacData";
 import Header from "../../app/components/Header";

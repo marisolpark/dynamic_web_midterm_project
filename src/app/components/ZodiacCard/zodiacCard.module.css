@@ -1,10 +1,16 @@
-.zodiacTitle{
-    color: #176A87;
+.blurbCont{
+    margin: 25px 0px;
 }
+
+.blurbCont p {
+    font-size: 18px;
+}
+
 .containter {
     display: flex;
     flex-direction: column;
 }
+
 .extraInfoContainer {
     display: flex;
     flex-direction: row;
@@ -32,10 +38,7 @@
     margin-top: 5px;
 }
 
-.blurbCont{
-    margin: 25px 0px;
+.zodiacTitle{
+    color: #176A87;
 }
 
-.blurbCont p {
-    font-size: 18px;
-}

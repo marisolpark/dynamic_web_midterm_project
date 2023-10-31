@@ -28,19 +28,21 @@ a {
   text-decoration: none;
 }
 
+header {
+  margin-bottom: 4%;
+  border-bottom: 2px solid #176A87;
+}
+
 header nav {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 10px 20px;
   font-size: 18px;
+  color: #176A87;
 }
 
 header nav a:hover {
   color: #FF7BEF;
 }
 
-header {
-  margin-bottom: 4%;
-  border-bottom: 2px solid #176A87;
-}
